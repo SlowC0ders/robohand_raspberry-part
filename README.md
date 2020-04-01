@@ -1,6 +1,6 @@
 # Robohand (raspberry pi part)
-### All steps did in the ROS meodic on raspberry pi 3 with ubuntu mate 18
-***Languages: C++, Python.***
+### All steps did in the ROS melodic on raspberry pi 3 with ubuntu mate 18
+***Languages: C++***
 
 1. You need download ubuntu on your rapberry pi
 2. Create ssh keys and send public key to your raspbery by command
