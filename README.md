@@ -24,9 +24,14 @@ Example
 ```
 192.168.0.10 my_pc
 ```
-9. Write that command (insert you IP instead of frase <IP>)
+9. Write that command (insert you IP or account's name instead of frase <IP>)
+    
 ```
 export ROS_MASTER_URI=http://IP:11311/
+```
+My example (you can find you ROS_MASTER_URI in the console when run roscore in a main PC)
+```
+ROS_MASTER_URI=http://pcjohn:11311/
 ```
 10. Now you can run last node (if you run rosnode on your main PC)
 ```
