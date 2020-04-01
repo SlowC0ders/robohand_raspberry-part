@@ -16,7 +16,7 @@ Host raspberry_account@raspberry_ip
 5. After all mentioned above download ROS melodic (you can find tutorial in the robohand repository)
 6. Create project (you can find tutorial in the robohand repository)
 7. Clone this repository and insert it instead of your project folder
-8. Now you need include in /etc/host this string
+8. Now you need include in /etc/host string with the host's data
 ```
 your_main_PC's_IP name_of_account
 ```
