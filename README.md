@@ -1,13 +1,13 @@
 # Robohand (raspberry pi part)
 ### All steps did in the ROS melodic on raspberry pi 3 with ubuntu mate 18
 ***Languages: C++***
-
+## In order to run last node make ten steps:
 1. You need download ubuntu on your rapberry pi
 2. Create ssh keys and send public key to your raspbery by command
 ```
 ssh-copy-id -i your_key.pub raspberry_account@raspberry_ip
 ```
-3. On yout main PC create *config* file and put information about you secret key
+3. On yout main PC create file in ~/.ssh folder (call it **config**) and put information about you secret key and 
 ```
 Host raspberry_account@raspberry_ip
     IdentityFile path_to_your_secret_key
@@ -24,7 +24,7 @@ Example
 ```
 192.168.0.10 my_pc
 ```
-9. Write that command and insert you IP instead of frase (IP)
+9. Write that command (insert you IP instead of frase <IP>)
 ```
 export ROS_MASTER_URI=http://IP:11311/
 ```
