@@ -9,7 +9,9 @@
 ```
 3. On yout main PC create file in ~/.ssh folder (call it **config**) and put information about you secret key and 
 ```
-    Host raspberry_account@raspberry_ip
+    Host remote_arm
+        HostName IP
+        User your_account
         IdentityFile path_to_your_secret_key
 ```
 4. Then enter to your raspberry with the ssh
